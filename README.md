@@ -78,8 +78,9 @@ On Linux/Kali:
 python3 --version
 ```
 
-No external Python packages are currently required.
-
+The CyberFileGuard application itself uses only Python's standard library.
+Pytest is used as a development/testing dependency and is listed in
+requirements-dev.txt.
 ---
 
 ## 📥 Installation
@@ -634,8 +635,6 @@ Potential future improvements include:
 * Browser artifact analysis
 * Windows event log analysis
 * Linux authentication log support
-* Unit testing
-* Automated CI testing
 * Plugin architecture
 * Additional report formats
 * Improved forensic chain-of-custody management
@@ -693,18 +692,22 @@ It can also serve as a cybersecurity and digital-forensics portfolio project.
 
 Current status:
 
-* Core CLI implemented
-* 11 security/forensic modules implemented
-* Windows support tested
-* Linux/Kali compatibility targeted
-* Sample investigation files included
-* JSON forensic reporting implemented
-* IOC JSON/CSV export implemented
-* SHA-256 integrity verification implemented
-* Directory duplicate detection implemented
-* Filesystem timeline analysis implemented
-* System information collection implemented
 
+- Core CLI implemented
+- 11 security/forensic modules implemented
+- Windows support tested
+- Linux/Kali compatibility targeted
+- Sample investigation files included
+- JSON forensic reporting implemented
+- IOC JSON/CSV export implemented
+- SHA-256 integrity verification implemented
+- Directory duplicate detection implemented
+- Filesystem timeline analysis implemented
+- System information collection implemented
+- Automated pytest test suite implemented
+- 5 automated tests currently passing
+- GitHub Actions CI workflow implemented
+- Python module compilation checked through CI
 ---
 
 # ⚖️ Disclaimer
