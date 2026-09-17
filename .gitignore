@@ -27,3 +27,6 @@ reports/*.csv
 .env
 .env.*
 !.env.example
+
+# Pytest cache
+.pytest_cache/
