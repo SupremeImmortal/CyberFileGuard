@@ -21,7 +21,7 @@ reports/*.csv
 
 # Temporary files
 *.tmp
-*.log
+
 
 # Secrets/environment files
 .env
