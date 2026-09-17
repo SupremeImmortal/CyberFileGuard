@@ -1,0 +1,13 @@
+Security investigation sample.
+
+Suspicious IP: 185.199.108.153
+Another IP: 8.8.8.8
+
+Suspicious domain: example.com
+Investigation domain: security-test.example.org
+
+URL: https://example.com/login
+URL: https://example.org/download/file
+
+Contact: analyst@example.com
+Contact: security@example.org
